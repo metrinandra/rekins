@@ -1,9 +1,15 @@
+import datetime
+
 class Rekins:
 
-    def __init__(self,vards, teksts, garums, platums,augstums, materials):
+    def __init__(self,vards, teksts, garums, platums,augstums, materials) -> object:
         self.vards = vards
         self.teksts = teksts
         self.garums =garums
         self.platums = platums
-        self.augstum = augstums
+        self.augstums = augstums
         self.materials = materials
+        laiks = datetime.datetime.now()
+
+
+
