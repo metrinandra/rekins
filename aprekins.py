@@ -1,5 +1,6 @@
+import datetime
 
-class Rekins:
+class Aprekins:
 
     def __init__(self,vards, teksts, izmeri, materials) -> object:
         self.vards = vards
@@ -9,7 +10,7 @@ class Rekins:
         laiks = datetime.datetime.now()
 
     def aprekinat_laukumu(self):
-        laukums = self.izmeri[0] * self.izmeri[1] * self.izmeri[2]
+        laukums = int(self.izmeri[0]) * int(self.izmeri[1]) * int(self.izmeri[2])
         print(laukums)
 
 
