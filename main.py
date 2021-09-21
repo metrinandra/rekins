@@ -18,6 +18,7 @@ def lietotaja_ievade():
     platums = input('Cik plata kastite? ***Noraadi milimetrus. Tikai veseli skaitli!***')
     garums = input('Cik  plata garumaa? ***Noraadi milimetrus.Tikai veseli skaitli!***')
     augstums = input('Cik  augsta? ***Noraadi milimetrus.Tikai veseli skaitli!***')
+    izmeri = [platums, augstums, garums]
     kokmateriala_cena = input('Kokmateriala cena')
     return vards, veltijuma_teksts, platums, garums, augstums, kokmateriala_cena
 
